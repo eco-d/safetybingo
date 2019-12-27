@@ -1,0 +1,136 @@
+/*
+
+font-family: 'Bungee Inline', cursive;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Bowlby One', cursive;
+
+ */
+
+
+/* Imgs */
+.imgshrink{
+  height: 5rem;
+  width: 12rem;
+}
+
+/* Text */
+.grand-text{
+  font-size: 5rem;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.num{
+  font-size: 6rem;
+  font-family: 'Bowlby One', cursive;
+  background-color: #2F4F4F;
+  color: #4ce600;
+  border-radius: 4%;
+}
+
+.num-alt{
+  font-size: 5rem;
+  font-family: 'Bowlby One', cursive;
+  background-color: #2F4F4F;
+  color: 	#D3D3D3;
+  border-radius: 4%;
+}
+
+.bb-num-alt{
+  font-size: 2rem;
+  font-family: 'Bowlby One', cursive;
+  background-color: #2F4F4F;
+  color: 	#D3D3D3;
+  border-radius: 4%;
+}
+
+.headr{
+  font-size: 4rem;
+  padding: 0.5rem;
+  border: solid;
+  border-color: #2F4F4F;
+  color: #F5F5F5;
+  border-radius: 4%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.headr-alt{
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  border: solid;
+  border-color: #2F4F4F;
+  color: #F5F5F5;
+  border-radius: 4%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.bb-headr-alt{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: solid;
+  border-color: #2F4F4F;
+  color: #F5F5F5;
+  border-radius: 4%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.bb-txt{
+  font-size: 1.05rem;
+  color: #778899;
+  font-family: 'Oxygen', sans-serif;
+}
+.test-1{
+  color: #4ce600;
+  font-size: 1.15rem;
+}
+
+.test-2{
+  background-color: #4ce600;
+  border-radius: 100%;
+  width: 1.35rem;
+  height: 1.35rem;
+  margin:auto;
+}
+
+.bb-txt-alt{
+  font-size: 1.75rem;
+  text-decoration: underline;
+  color: #F5F5F5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Divs */
+.holder {
+  background-color: #DCDCDC;
+  text-align: center;
+  margin: 1rem auto;
+  width: 60rem;
+  border-radius: 4%;
+}
+
+.spacer{
+  height: 11rem;
+}
+
+.bb-spacer{
+  height: 1rem;
+}
+
+.med-spacer{
+  height: 7rem;
+}
+
+.centr{
+  text-align: center;
+}
+.bingo{
+  background-color: #2F4F4F;
+  border-radius: 4%;
+}
+
+/* General */
+
+body {
+  background: #085078;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
