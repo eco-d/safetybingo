@@ -5,9 +5,15 @@ Safety Bingo Host Service (tentative)
 
 
 BASE HTML                 [X]
+
 BASE STYLIZATION          [X]
+
 BASE JS                   [ ]
+
 GOOGLE FORM               [X]
+
 GOOGLE RESET SCRIPT       [X]
+
 GOOGLE DATA INTEGRATION   [ ]
+
 TESTING PASSED            [ ]
