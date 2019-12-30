@@ -78,17 +78,10 @@ font-family: 'Bowlby One', cursive;
   color: #778899;
   font-family: 'Oxygen', sans-serif;
 }
-.test-1{
+
+.picked{
   color: #4ce600;
   font-size: 1.15rem;
-}
-
-.test-2{
-  background-color: #4ce600;
-  border-radius: 100%;
-  width: 1.35rem;
-  height: 1.35rem;
-  margin:auto;
 }
 
 .bb-txt-alt{
@@ -96,6 +89,10 @@ font-family: 'Bowlby One', cursive;
   text-decoration: underline;
   color: #F5F5F5;
   font-family: 'Oxygen', sans-serif;
+}
+
+.bad{
+  color: red;
 }
 
 /* Divs */
@@ -127,10 +124,13 @@ font-family: 'Bowlby One', cursive;
   border-radius: 10px;
 }
 
+.gbr{
+  background-color: #DCDCDC;
+}
 /* General */
 
 body {
-  background: #085078;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
