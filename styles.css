@@ -24,7 +24,7 @@ font-family: 'Bowlby One', cursive;
   font-family: 'Bowlby One', cursive;
   background-color: #2F4F4F;
   color: #4ce600;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 .num-alt{
@@ -32,7 +32,7 @@ font-family: 'Bowlby One', cursive;
   font-family: 'Bowlby One', cursive;
   background-color: #2F4F4F;
   color: 	#D3D3D3;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 .bb-num-alt{
@@ -40,7 +40,7 @@ font-family: 'Bowlby One', cursive;
   font-family: 'Bowlby One', cursive;
   background-color: #2F4F4F;
   color: 	#D3D3D3;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 .headr{
@@ -49,7 +49,7 @@ font-family: 'Bowlby One', cursive;
   border: solid;
   border-color: #2F4F4F;
   color: #F5F5F5;
-  border-radius: 4%;
+  border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -59,7 +59,7 @@ font-family: 'Bowlby One', cursive;
   border: solid;
   border-color: #2F4F4F;
   color: #F5F5F5;
-  border-radius: 4%;
+  border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -69,7 +69,7 @@ font-family: 'Bowlby One', cursive;
   border: solid;
   border-color: #2F4F4F;
   color: #F5F5F5;
-  border-radius: 4%;
+  border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -104,7 +104,7 @@ font-family: 'Bowlby One', cursive;
   text-align: center;
   margin: 1rem auto;
   width: 60rem;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 .spacer{
@@ -124,7 +124,7 @@ font-family: 'Bowlby One', cursive;
 }
 .bingo{
   background-color: #2F4F4F;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 /* General */
