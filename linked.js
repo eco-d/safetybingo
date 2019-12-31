@@ -28,8 +28,12 @@ var called_nums = [];
 
 //functions
 function startDate(){
+  var a = [1,2,3,4,5,6,7,8,9,10,11,12];
   var d = new Date();
-  var hold = d.getMonth() + "/" + d.getDate() + "/" + d.getYear();
+
+
+
+  var hold = a[d.getMonth()] + "/" + d.getDate() + "/" + d.getFullYear();
   $("#startdate").html(hold);
 }
 
@@ -128,12 +132,6 @@ $("#resetter").on('click', function() {
   clearCalled(called_nums);
   newNum(called_nums);
   startDate();
+  $("#game_setup").fadeOut();
   play(holder, called_nums);
-  $("#game_setup").hide();
-  $("#gameboard").show();
-});
-
-$("#back2menu").on('click', function() {
-  $("#game_setup").show();
-  $("#gameboard").hide();
 });
