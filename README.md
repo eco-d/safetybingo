@@ -8,12 +8,12 @@ BASE HTML                 [X]
 
 BASE STYLIZATION          [X]
 
-BASE JS                   [ ]
+BASE JS                   [X]
 
 GOOGLE FORM               [X]
 
 GOOGLE RESET SCRIPT       [X]
 
-GOOGLE DATA INTEGRATION   [ ]
+GOOGLE DATA INTEGRATION   [X]
 
 TESTING PASSED            [ ]
