@@ -31,8 +31,6 @@ function startDate(){
   var a = [1,2,3,4,5,6,7,8,9,10,11,12];
   var d = new Date();
 
-
-
   var hold = a[d.getMonth()] + "/" + d.getDate() + "/" + d.getFullYear();
   $("#startdate").html(hold);
 }
@@ -97,9 +95,9 @@ function update(h){
     holdM = holdM + addr;
   }
 
-  $("#speeding").html(holdS);
-  $("#accidents").html(holdA);
-  $("#jackpot").html(holdM);
+  $("#speeding").html(holdS + " Days");
+  $("#accidents").html(holdA + " Days");
+  $("#jackpot").html("$" + holdM);
 
 
 }
@@ -111,17 +109,20 @@ function play(holder, n) {
   var m = today.getMinutes();
   var d = today.getDay();
 
-  if(d != 0 && d!= 6){
-    if(h == 6){
-      if(m == 50 || m == 51 || m == 52){
-        newNum(n);
-        update(holder);
-      }
-    }
-  }
+  newNum(n);
+  update(holder);
+
+  // if(d != 0 && d!= 6){
+  //   if(h == 6){
+  //     if(m == 50 || m == 51 || m == 52){
+  //       newNum(n);
+  //       update(holder);
+  //     }
+  //   }
+  // }
   t = setTimeout(function() {
     play(holder, n);
-  }, 180000);
+  }, 15000); //180000
 }
 
 
