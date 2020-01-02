@@ -6,14 +6,24 @@ font-family: 'Bowlby One', cursive;
 
  */
 
+ /* Imgs */
+ .imgshrink{
+   height: 5rem;
+   width: 12rem;
+ }
 
-/* Imgs */
-.imgshrink{
-  height: 5rem;
-  width: 12rem;
+/* text */
+
+#Name_of_restarter{
+  text-align: center;
 }
 
-/* Text */
+.inform{
+  font-size: 2.2rem;
+  color: #eeeeee;
+  text-align: center;
+}
+
 .grand-text{
   font-size: 5rem;
   font-family: 'Bungee Inline', cursive;
@@ -48,7 +58,7 @@ font-family: 'Bowlby One', cursive;
   padding: 0.5rem;
   border: solid;
   border-color: #2F4F4F;
-  color: #F5F5F5;
+  color: #2F4F4F;
   border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
 }
@@ -58,7 +68,7 @@ font-family: 'Bowlby One', cursive;
   padding: 0.5rem;
   border: solid;
   border-color: #2F4F4F;
-  color: #F5F5F5;
+  color: #2F4F4F;
   border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
 }
@@ -68,7 +78,7 @@ font-family: 'Bowlby One', cursive;
   padding: 0.5rem;
   border: solid;
   border-color: #2F4F4F;
-  color: #F5F5F5;
+  color: #2F4F4F;
   border-radius: 10px;
   font-family: 'Oxygen', sans-serif;
 }
@@ -87,7 +97,7 @@ font-family: 'Bowlby One', cursive;
 .bb-txt-alt{
   font-size: 1.75rem;
   text-decoration: underline;
-  color: #F5F5F5;
+  color: #009688;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -95,7 +105,7 @@ font-family: 'Bowlby One', cursive;
   color: red;
 }
 
-/* Divs */
+/*  Divs */
 .holder {
   background-color: #DCDCDC;
   text-align: center;
@@ -127,10 +137,51 @@ font-family: 'Bowlby One', cursive;
 .gbr{
   background-color: #DCDCDC;
 }
+
+.form-pretty{
+  background-color: #2a36b1;
+  border-radius: 10px;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.seek{
+  visibility: visible;
+}
+
+/* buttons */
+
+.reset_button {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.reset_button:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.reset_button:active {
+	position:relative;
+	top:1px;
+}
+
+
 /* General */
 
-body {
-  background: #00d2ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{
+  background: #3a7bd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #DCDCDC, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #DCDCDC, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
