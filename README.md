@@ -1,7 +1,7 @@
 # safetybingo
 Safety Bingo Host Service (tentative)
 
-## Current Status: Locked at google sheets integration. Once solved, can do full tests.
+## Current Status: Live.
 
 
 BASE HTML                 [X]
