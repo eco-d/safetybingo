@@ -1,7 +1,7 @@
 # safetybingo
 Safety Bingo Host Service (tentative)
 
-## Current Status: Live.
+## Current Status: Live. (V2)
 
 
 BASE HTML                 [X]
