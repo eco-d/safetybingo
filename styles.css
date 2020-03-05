@@ -102,10 +102,27 @@ font-family: 'Bowlby One', cursive;
 }
 
 .bad{
+  font-size: 4.5rem;
   color: red;
 }
 
 /*  Divs */
+
+.absolute{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0,188,212,.7),
+    rgba(0,150,136,.7)),
+    url('https://media.giphy.com/media/3ohzdYnPyEiKF74r3G/giphy.gif');
+
+  background-size: cover;
+  background-size:
+}
+
 .holder {
   background-color: #DCDCDC;
   text-align: center;
@@ -151,37 +168,4 @@ font-family: 'Bowlby One', cursive;
   visibility: visible;
 }
 
-/* buttons */
-
-.reset_button {
-	box-shadow:inset 0px 1px 0px 0px #fce2c1;
-	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
-	background-color:#ffc477;
-	border-radius:6px;
-	border:1px solid #eeb44f;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
-	font-size:15px;
-	padding:6px 24px;
-	text-decoration:none;
-}
-.reset_button:hover {
-	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
-	background-color:#fb9e25;
-}
-.reset_button:active {
-	position:relative;
-	top:1px;
-}
-
-
 /* General */
-
-body{
-  background: #3a7bd5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #DCDCDC, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #DCDCDC, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}

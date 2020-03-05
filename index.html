@@ -16,220 +16,197 @@
     <link rel="stylesheet" href="styles.css">
 
   </head>
-  <body>
-    <div id="gameboard">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="centr gbr">
-            <h1 class = "grand-text">Safety Bingo</h1>
-            <img src="imgs/eco-logo.png" alt="eco logo" class = "imgshrink">
-          </div>
-          <div class="bb-spacer"></div>
-          <div class="bb-spacer"></div>
-        </div>
-      </div>
+  <body style="overflow: hidden;">
 
-
-      <div class="">
+    <div class="absolute">
+      <div id="gameboard">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="centr">
-              <h1 class="headr-alt">Current Jackpot:</h1>
-              <p id="jackpot" class="num-alt">_</p>
-              <div class="bb-spacer"></div>
-              <h1 class="headr-alt">Days Without Speeding:</h1>
-              <p id="speeding" class="num-alt">_</p>
-              <div class="bb-spacer"></div>
-              <h1 class="headr-alt">Days Without Accidents:</h1>
-              <p id="accidents" class="num-alt">_</p>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="centr gbr">
+              <h1 class = "grand-text">Safety Bingo</h1>
+              <img src="imgs/eco-logo.png" alt="eco logo" class = "imgshrink">
             </div>
+            <div class="bb-spacer"></div>
           </div>
-          <div class="col-lg-4">
-            <div class="centr">
-              <h1 class="bb-headr-alt">Started On:</h1>
-              <p id="startdate" class="bb-num-alt">_</p>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <h1 class="headr">Today's Number:</h1>
-              <p id="today_num" class="num">_</p>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <div class="bb-spacer"></div>
-              <h1 class="bb-headr-alt">Game Restarted By:</h1>
-              <p id="shame" class="bb-num-alt bad">_</p>
-              <div class="med-spacer"></div>
-              <div class="med-spacer"></div>
+        </div>
 
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="bingo">
+
+        <div class="">
+          <div class="row">
+            <div class="col-lg-4">
               <div class="centr">
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">B</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">I</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">N</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">G</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">O</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <h1 class="headr-alt">Days Without Speeding:</h1>
+                <p id="speeding" class="num-alt">_</p>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n1" class="bb-txt">1</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n16" class="bb-txt">16</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n31" class="bb-txt">31</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n46" class="bb-txt">46</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n61" class="bb-txt">61</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <div class="med-spacer"></div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n2" class="bb-txt">2</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n17" class="bb-txt">17</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n32" class="bb-txt">32</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n47" class="bb-txt">47</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n62" class="bb-txt">62</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <h1 class="bb-headr-alt">Started On:</h1>
+                <p id="startdate" class="bb-num-alt">_</p>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n3" class="bb-txt">3</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n18" class="bb-txt">18</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n33" class="bb-txt">33</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n48" class="bb-txt">48</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n63" class="bb-txt">63</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n4" class="bb-txt">4</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n19" class="bb-txt">19</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n34" class="bb-txt">34</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n49" class="bb-txt">49</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n64" class="bb-txt">64</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n5" class="bb-txt">5</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n20" class="bb-txt">20</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n35" class="bb-txt">35</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n50" class="bb-txt">50</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n65" class="bb-txt">65</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <h1 class="bb-headr-alt">Game Restarted By:</h1>
+                <p id="shame" class="bb-num-alt bad">_</p>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n6" class="bb-txt">6</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n21" class="bb-txt">21</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n36" class="bb-txt">36</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n51" class="bb-txt">51</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n66" class="bb-txt">66</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n7" class="bb-txt">7</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n22" class="bb-txt">22</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n37" class="bb-txt">37</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n52" class="bb-txt">52</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n67" class="bb-txt">67</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n8" class="bb-txt">8</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n23" class="bb-txt">23</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n38" class="bb-txt">38</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n53" class="bb-txt">53</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n68" class="bb-txt">68</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n9" class="bb-txt">9</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n24" class="bb-txt">24</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n39" class="bb-txt">39</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n54" class="bb-txt">54</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n69" class="bb-txt">69</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="centr">
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n10" class="bb-txt">10</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n25" class="bb-txt">25</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n40" class="bb-txt">40</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n55" class="bb-txt">55</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n70" class="bb-txt">70</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <h1 class="headr-alt">Current Jackpot:</h1>
+                <p id="jackpot" class="num-alt">_</p>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n11" class="bb-txt">11</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n26" class="bb-txt">26</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n41" class="bb-txt">41</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n56" class="bb-txt">56</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n71" class="bb-txt">71</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n12" class="bb-txt">12</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n27" class="bb-txt">27</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n42" class="bb-txt">42</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n57" class="bb-txt">57</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n72" class="bb-txt">72</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n13" class="bb-txt">13</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n28" class="bb-txt">28</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n43" class="bb-txt">43</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n58" class="bb-txt">58</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n73" class="bb-txt">73</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <h1 class="headr">Today's Number:</h1>
+                <p id="today_num" class="num">_</p>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n14" class="bb-txt">14</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n29" class="bb-txt">29</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n44" class="bb-txt">44</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n59" class="bb-txt">59</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n74" class="bb-txt">74</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
+                <div class="bb-spacer"></div>
 
-                <div class="row">
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n15" class="bb-txt">15</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n30" class="bb-txt">30</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n45" class="bb-txt">45</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n60" class="bb-txt">60</p></div>
-                  <div class="col-lg-2 col-md-2 col-sm-2"><p id="n75" class="bb-txt">75</p></div>
-                  <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="centr">
+                <h1 class="headr-alt">Days Without Accidents:</h1>
+                <p id="accidents" class="num-alt">_</p>
+              </div>
+              <div class="bb-spacer"></div>
+              <div class="bingo">
+                <div class="centr">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">B</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">I</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">N</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">G</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p class="bb-txt-alt">O</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
 
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n1" class="bb-txt">1</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n11" class="bb-txt">11</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n21" class="bb-txt">21</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n31" class="bb-txt">31</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n41" class="bb-txt">41</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n2" class="bb-txt">2</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n12" class="bb-txt">12</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n22" class="bb-txt">22</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n32" class="bb-txt">32</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n42" class="bb-txt">42</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n3" class="bb-txt">3</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n13" class="bb-txt">13</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n23" class="bb-txt">23</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n33" class="bb-txt">33</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n43" class="bb-txt">43</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n4" class="bb-txt">4</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n14" class="bb-txt">14</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n24" class="bb-txt">24</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n34" class="bb-txt">34</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n44" class="bb-txt">44</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n5" class="bb-txt">5</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n15" class="bb-txt">15</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n25" class="bb-txt">25</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n35" class="bb-txt">35</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n45" class="bb-txt">45</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n6" class="bb-txt">6</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n16" class="bb-txt">16</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n26" class="bb-txt">26</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n36" class="bb-txt">36</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n46" class="bb-txt">46</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n7" class="bb-txt">7</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n17" class="bb-txt">17</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n27" class="bb-txt">27</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n37" class="bb-txt">37</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n47" class="bb-txt">47</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n8" class="bb-txt">8</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n18" class="bb-txt">18</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n28" class="bb-txt">28</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n38" class="bb-txt">38</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n48" class="bb-txt">48</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n9" class="bb-txt">9</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n19" class="bb-txt">19</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n29" class="bb-txt">29</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n39" class="bb-txt">39</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n49" class="bb-txt">49</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n10" class="bb-txt">10</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n20" class="bb-txt">20</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n30" class="bb-txt">30</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n40" class="bb-txt">40</p></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2"><p id="n50" class="bb-txt">50</p></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>

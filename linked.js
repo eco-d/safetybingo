@@ -45,7 +45,7 @@ async function getGsheetData(sheetId, tabId) {
 }
 
 // Specifics for Safety Bingo
-bingoSheet = '1qkR5ALHeEe8TKRBiiAiw_mFmhJ4HsNDPvgulL0ccGhM';
+bingoSheet = '1FUOwka8y59STtqK_XFhP_U2i0zevvxTohRgsc8zkGRA';
 
 getGsheetData(bingoSheet, 2).then((setup)  => {
     console.log(setup);
@@ -59,7 +59,7 @@ getGsheetData(bingoSheet, 2).then((setup)  => {
 
 getGsheetData(bingoSheet,3).then((numbers) => {
     console.log(numbers);
-    for(var i = 1; i < 76; i++){
+    for(var i = 1; i < 51; i++){
       hold = "#n" + i;
       console.log(hold);
       $(hold).attr('class', 'bb-txt');
